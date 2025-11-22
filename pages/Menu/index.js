@@ -8,7 +8,7 @@ export default function index() {
       title: "Spring Rolls",
       description: "Crispy spring rolls filled with fresh vegetables and served with sweet chili sauce.",
       price: "$8.99",
-      image: "https://dummyimage.com/800x600/ff6b6b/ffffff&text=Spring+Rolls"
+      image: "/springroll.jpg"
     },
     {
       category: "PASTA",
@@ -54,42 +54,42 @@ export default function index() {
       title: "Garlic Mashed Potatoes",
       description: "Creamy mashed potatoes with roasted garlic and butter.",
       price: "$6.99",
-      image: "https://dummyimage.com/800x600/ffd93d/ffffff&text=Mashed+Potatoes"
+      image: "/mashedpotatoes.jpg"
     },
     {
       category: "SIDES",
       title: "Grilled Vegetables",
       description: "Seasonal vegetables grilled to perfection with herbs.",
       price: "$7.99",
-      image: "https://dummyimage.com/800x600/6bcf7f/ffffff&text=Vegetables"
+      image: "/grilledveg.jpg"
     },
     {
       category: "SIDES",
-      title: "Caesar Salad",
+      title: "Cold Salad",
       description: "Crisp romaine lettuce with parmesan and croutons.",
       price: "$8.99",
-      image: "https://dummyimage.com/800x600/4d96ff/ffffff&text=Caesar+Salad"
+      image: "/coldsalad.jpg"
     },
     {
       category: "SIDES",
       title: "French Fries",
       description: "Crispy golden fries seasoned with sea salt.",
       price: "$5.99",
-      image: "https://dummyimage.com/800x600/ffb347/ffffff&text=French+Fries"
+      image: "/fries.png"
     },
     {
       category: "SIDES",
       title: "Onion Rings",
       description: "Beer-battered onion rings served with dipping sauce.",
       price: "$6.99",
-      image: "https://dummyimage.com/800x600/dda15e/ffffff&text=Onion+Rings"
+      image: "/onionrings.jpg"
     },
     {
       category: "SIDES",
       title: "Coleslaw",
       description: "Fresh cabbage slaw with tangy dressing.",
       price: "$4.99",
-      image: "https://dummyimage.com/800x600/a8dadc/ffffff&text=Coleslaw"
+      image: "/coleslaw.jpg"
     }
   ]
 
@@ -99,7 +99,7 @@ export default function index() {
       title: "Artisan Cocktails",
       description: "Handcrafted cocktails made with premium spirits.",
       price: "$14.99",
-      image: "https://dummyimage.com/800x600/fcbad3/ffffff&text=Cocktails"
+      image: "/artisancocktails.jpg"
     },
     {
       category: "DRINKS",
@@ -127,14 +127,14 @@ export default function index() {
       title: "Smoothies",
       description: "Fresh fruit smoothies with your choice of flavors.",
       price: "$7.99",
-      image: "https://dummyimage.com/800x600/ff6b9d/ffffff&text=Smoothies"
+      image: "/fruitshake.jpg"
     },
     {
       category: "DRINKS",
       title: "Craft Beer",
       description: "Selection of local craft beers on tap.",
       price: "$8.99",
-      image: "https://dummyimage.com/800x600/f4a460/ffffff&text=Craft+Beer"
+      image: "/draftbeer.jpg"
     }
   ]
 

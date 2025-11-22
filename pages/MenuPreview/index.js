@@ -12,7 +12,7 @@ function index() {
           <div className="p-4 md:w-1/3">
             <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300">
               <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/720x400/ff6b6b/ffffff&text=Pasta+Dish" alt="pasta"/>
-              <div className="p-6">
+              <div className="p-6 bg-white">
                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">PASTA</h2>
                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Truffle Carbonara</h1>
                 <p className="leading-relaxed mb-3">Creamy pasta with truffle oil, crispy pancetta, and fresh parmesan.</p>
@@ -25,7 +25,7 @@ function index() {
           <div className="p-4 md:w-1/3">
             <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300">
               <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/721x401/4ecdc4/ffffff&text=Seafood+Plate" alt="seafood"/>
-              <div className="p-6">
+              <div className="p-6 bg-white">
                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">SEAFOOD</h2>
                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Grilled Salmon</h1>
                 <p className="leading-relaxed mb-3">Fresh Atlantic salmon with roasted vegetables and lemon butter sauce.</p>
@@ -38,7 +38,7 @@ function index() {
           <div className="p-4 md:w-1/3">
             <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300">
               <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402/95e1d3/ffffff&text=Steak+Entree" alt="steak"/>
-              <div className="p-6">
+              <div className="p-6 bg-white">
                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">MEAT</h2>
                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Prime Ribeye Steak</h1>
                 <p className="leading-relaxed mb-3">12oz ribeye cooked to perfection, served with garlic mashed potatoes.</p>
