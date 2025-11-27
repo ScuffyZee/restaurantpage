@@ -1,7 +1,4 @@
-// pages/Blog/index.js
-
 import React from 'react';
-// The import path is relative from pages/Blog/ to components/blog/BlogSection
 import BlogSection from '../../components/blog/BlogSection'; 
 // ... (any other imports)
 

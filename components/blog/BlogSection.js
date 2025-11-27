@@ -1,7 +1,6 @@
-// components/blog/BlogSection.js
 import React from 'react';
 
-// Define the custom colors used in the menu (Tailwind classes)
+
 const ACCENT_GOLD = 'text-yellow-500'; 
 const ACCENT_GREEN = 'text-teal-400';  
 const BACKGROUND_DARK = 'bg-black-900';
@@ -12,7 +11,7 @@ const blogPosts = [
         id: 1,
         // ...
         title: 'The Secret to That Creamy Carbonara: Truffle Edition',
-        // --- CHANGE THIS LINE ---
+        
         imageSrc: '/carbonara.jpg', 
         alt: 'Creamy Truffle Carbonara',
         link: '/blog/truffle-carbonara-recipe'
@@ -21,7 +20,7 @@ const blogPosts = [
         id: 2,
         // ...
         title: 'From Ocean to Plate: Our Sustainable Salmon Sourcing',
-        // --- CHANGE THIS LINE ---
+        
         imageSrc: '/salmon.jpeg',
         alt: 'Grilled Salmon Dish',
         link: '/blog/sustainable-salmon'
@@ -30,7 +29,6 @@ const blogPosts = [
         id: 3,
         // ...
         title: 'Mixology Magic: Meet the Bartender Behind Our Signature Sips',
-        // --- CHANGE THIS LINE ---
         imageSrc: '/cocktail.jpg',
         alt: 'Artisan Cocktail',
         link: '/blog/mixologist-profile'
@@ -56,7 +54,6 @@ function BlogSection() {
                             className={`group w-full sm:w-80 md:w-96 lg:w-80 overflow-hidden rounded-lg shadow-xl 
                                        ${CARD_DARK} transition-all duration-300 hover:-translate-y-2`}
                            onMouseEnter={(e) => { 
-    // SAFELY CHECK if post.accentColor is defined and is a string
     if (typeof post.accentColor === 'string') {
         const shadowColor = post.accentColor.includes('yellow') 
             ? 'rgba(234, 179, 8, 0.7)' // Yellow/Gold Shadow
@@ -64,7 +61,6 @@ function BlogSection() {
         
         e.currentTarget.style.boxShadow = `0 15px 30px rgba(0, 0, 0, 0.5), 0 0 10px ${shadowColor}`;
     } else {
-        // Fallback for safety if accentColor is missing (e.g., default yellow)
         e.currentTarget.style.boxShadow = `0 15px 30px rgba(0, 0, 0, 0.5), 0 0 10px rgba(234, 179, 8, 0.7)`;
     }
 }}
