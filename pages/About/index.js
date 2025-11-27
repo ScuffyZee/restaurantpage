@@ -1,6 +1,20 @@
-import React from 'react'
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 export default function About() {
+  const router = useRouter();
+  
+    const scrollToBookSection = () => {
+      const bookSection = document.getElementById('book-section');
+      if (bookSection) {
+        bookSection.scrollIntoView({ behavior: 'smooth' });
+      } else if (router.pathname !== '/') {
+        // If not on home page, navigate there first
+        router.push('/#book-section');
+      }
+    };
   const values = [
     {
       icon: (
@@ -93,9 +107,12 @@ export default function About() {
               <a href="/menu" className="inline-flex text-white bg-orange-600 border-0 py-3 px-8 focus:outline-none hover:bg-orange-700 rounded-lg text-lg transition-colors">
                 View Our Menu
               </a>
-              <a href="/book" className="inline-flex text-gray-300 bg-gray-700 border-0 py-3 px-8 focus:outline-none hover:bg-gray-600 rounded-lg text-lg transition-colors">
-                Make a Reservation
-              </a>
+    <button onClick={scrollToBookSection} className="inline-flex items-center bg-orange-600 text-white border-0 py-2 px-4 focus:outline-none hover:bg-orange-700 rounded text-base mt-4 md:mt-0 transition-colors">
+      Book a Table
+      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+    </button>
             </div>
           </div>
         </div>
