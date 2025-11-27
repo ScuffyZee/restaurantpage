@@ -19,8 +19,8 @@ const Navbar = () => {
   
     
   
-  <header class="text-gray-600 body-font">
-  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+  <header className="text-gray-400 body-font bg-gray-900">
+  <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
   <Link href="/">
     <Image
       src="/ramenlogo.png"
@@ -29,32 +29,33 @@ const Navbar = () => {
       height={70}
     />
   </Link>
-    <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+    <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center">
       <Link href="/">
-      <div class="mr-5 hover:text-gray-900">Home</div>
+      <div className="mr-5 hover:text-orange-500 transition-colors cursor-pointer">Home</div>
        </Link>
        <Link href="/About">  
-      <div class="mr-5 hover:text-gray-900">About Us</div>
+      <div className="mr-5 hover:text-orange-500 transition-colors cursor-pointer">About Us</div>
        </Link>
       <Link href="/menu">
-      <div class="mr-5 hover:text-gray-900">Menu</div>
+      <div className="mr-5 hover:text-orange-500 transition-colors cursor-pointer">Menu</div>
       </Link>
         <Link href="/Team">
-      <div class="mr-5 hover:text-gray-900">Team</div>
+      <div className="mr-5 hover:text-orange-500 transition-colors cursor-pointer">Team</div>
        </Link>
        <Link href="/FAQS">
-      <div class="mr-5 hover:text-gray-900">FAQS</div>
+      <div className="mr-5 hover:text-orange-500 transition-colors cursor-pointer">FAQS</div>
        </Link>
        <Link href="/Blog">
-      <div class="mr-5 hover:text-gray-900">Blog</div>
+      <div className="mr-5 hover:text-orange-500 transition-colors cursor-pointer">Blog</div>
        </Link>
       
        
        
       
     </nav>
-    <button onClick={scrollToBookSection} class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Book a Table
-      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+    <button onClick={scrollToBookSection} className="inline-flex items-center bg-orange-600 text-white border-0 py-2 px-4 focus:outline-none hover:bg-orange-700 rounded text-base mt-4 md:mt-0 transition-colors">
+      Book a Table
+      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
         <path d="M5 12h14M12 5l7 7-7 7"></path>
       </svg>
     </button>
