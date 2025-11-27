@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import BlogSection from '../../components/blog/BlogSection'; 
+// ... (any other imports)
 
 function index() {
   return (
