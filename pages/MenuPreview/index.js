@@ -11,39 +11,40 @@ function index() {
         <div className="flex flex-wrap -m-4">
           <div className="p-4 md:w-1/3">
             <div className="h-full border-2 border-gray-700 border-opacity-60 rounded-lg overflow-hidden hover:shadow-xl hover:shadow-orange-900/20 transition-shadow duration-300">
-              <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/720x400/ff6b6b/ffffff&text=Pasta+Dish" alt="pasta"/>
+              <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=800&h=600&fit=crop" alt="pasta"/>
               <div className="p-6 bg-gray-800">
-                <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">PASTA</h2>
-                <h1 className="title-font text-lg font-medium text-white mb-3">Truffle Carbonara</h1>
-                <p className="leading-relaxed mb-3 text-gray-300">Creamy pasta with truffle oil, crispy pancetta, and fresh parmesan.</p>
+                <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">RAMEN</h2>
+                <h1 className="title-font text-lg font-medium text-white mb-3">Tonkotsu Ramen</h1>
+                <p className="leading-relaxed mb-3 text-gray-300">Rich pork bone broth with tender chashu pork, soft-boiled egg, and fresh noodles.</p>
                 <div className="flex items-center flex-wrap">
-                  <span className="text-orange-500 font-semibold text-xl">$24.99</span>
+                  <span className="text-orange-500 font-semibold text-xl">$16.99</span>
                 </div>
               </div>
             </div>
           </div>
           <div className="p-4 md:w-1/3">
             <div className="h-full border-2 border-gray-700 border-opacity-60 rounded-lg overflow-hidden hover:shadow-xl hover:shadow-orange-900/20 transition-shadow duration-300">
-              <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/721x401/4ecdc4/ffffff&text=Seafood+Plate" alt="seafood"/>
+              <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="/mackerel.jpg" alt="seafood"/>
               <div className="p-6 bg-gray-800">
-                <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">SEAFOOD</h2>
-                <h1 className="title-font text-lg font-medium text-white mb-3">Grilled Salmon</h1>
-                <p className="leading-relaxed mb-3 text-gray-300">Fresh Atlantic salmon with roasted vegetables and lemon butter sauce.</p>
+                <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">ROBATA</h2>
+                <h1 className="title-font text-lg font-medium text-white mb-3">Grilled Mackerel</h1>
+                <p className="leading-relaxed mb-3 text-gray-300">Freshly caught charcoal-grilled whole mackerel with daikon and ponzu. 
+                </p>
                 <div className="flex items-center flex-wrap">
-                  <span className="text-orange-500 font-semibold text-xl">$32.99</span>
+                  <span className="text-orange-500 font-semibold text-xl">$18.99</span>
                 </div>
               </div>
             </div>
           </div>
           <div className="p-4 md:w-1/3">
             <div className="h-full border-2 border-gray-700 border-opacity-60 rounded-lg overflow-hidden hover:shadow-xl hover:shadow-orange-900/20 transition-shadow duration-300">
-              <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402/95e1d3/ffffff&text=Steak+Entree" alt="steak"/>
+              <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="/gyudon.jpg" alt="steak"/>
               <div className="p-6 bg-gray-800">
-                <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">MEAT</h2>
-                <h1 className="title-font text-lg font-medium text-white mb-3">Prime Ribeye Steak</h1>
-                <p className="leading-relaxed mb-3 text-gray-300">12oz ribeye cooked to perfection, served with garlic mashed potatoes.</p>
+                <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">DONBURI</h2>
+                <h1 className="title-font text-lg font-medium text-white mb-3">Gyudon</h1>
+                <p className="leading-relaxed mb-3 text-gray-300">Simmered beef and onions over steamed rice with pickled ginger.</p>
                 <div className="flex items-center flex-wrap">
-                  <span className="text-orange-500 font-semibold text-xl">$42.99</span>
+                  <span className="text-orange-500 font-semibold text-xl">$14.99</span>
                 </div>
               </div>
             </div>

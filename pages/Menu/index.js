@@ -15,7 +15,7 @@ export default function index() {
       title: "Spicy Miso Ramen",
       description: "Fiery miso broth with ground pork, bamboo shoots, and chili oil.",
       price: "$17.99",
-      image: "https://images.unsplash.com/photo-1617421753170-c7b9d0527519?w=800&h=600&fit=crop"
+      image: "/SpicyMisoRamen_Square.jpg"
     },
     {
       category: "RAMEN",
@@ -50,21 +50,21 @@ export default function index() {
       title: "Grilled Mackerel",
       description: "Charcoal-grilled whole mackerel with daikon and ponzu.",
       price: "$18.99",
-      image: "https://images.unsplash.com/photo-1580959375944-1ab5ba969bbc?w=800&h=600&fit=crop"
+      image: "/mackerel.jpg"
     },
     {
       category: "DONBURI",
       title: "Gyudon",
       description: "Simmered beef and onions over steamed rice with pickled ginger.",
       price: "$14.99",
-      image: "https://images.unsplash.com/photo-1626804475297-41608ea09aeb?w=800&h=600&fit=crop"
+      image: "/gyudon.jpg"
     },
     {
       category: "FRIED",
       title: "Karaage",
       description: "Japanese fried chicken with yuzu mayo dipping sauce.",
       price: "$11.99",
-      image: "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&h=600&fit=crop"
+      image: "/karaage.webp"
     }
   ]
 
@@ -75,14 +75,14 @@ export default function index() {
       title: "Edamame",
       description: "Steamed young soybeans with sea salt and sesame.",
       price: "$6.99",
-      image: "https://images.unsplash.com/photo-1607301405061-f31e6d07d1c8?w=800&h=600&fit=crop"
+      image: "/edamame.jpg"
     },
     {
       category: "APPETIZERS",
       title: "Takoyaki",
       description: "Crispy octopus balls topped with bonito flakes and takoyaki sauce.",
       price: "$9.99",
-      image: "https://images.unsplash.com/photo-1606557112993-e9f5ccfdc92b?w=800&h=600&fit=crop"
+      image: "/takoyaki.jpg"
     },
     {
       category: "APPETIZERS",
@@ -96,14 +96,14 @@ export default function index() {
       title: "Agedashi Tofu",
       description: "Lightly fried tofu in savory dashi broth with ginger.",
       price: "$7.99",
-      image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&h=600&fit=crop"
+      image: "/tofu.jpg"
     },
     {
       category: "APPETIZERS",
       title: "Tempura Platter",
       description: "Assorted shrimp and vegetable tempura with tentsuyu sauce.",
       price: "$13.99",
-      image: "https://images.unsplash.com/photo-1594756202469-9ff9799b2e4e?w=800&h=600&fit=crop"
+      image: "/tempura.webp"
     },
     {
       category: "SALADS",
@@ -117,21 +117,21 @@ export default function index() {
       title: "Onigiri Set",
       description: "Three rice balls with salmon, tuna, and pickled plum.",
       price: "$8.99",
-      image: "https://images.unsplash.com/photo-1601576084861-5de423553c0b?w=800&h=600&fit=crop"
+      image: "/onigiri.jpg"
     },
     {
       category: "NOODLES",
       title: "Yakisoba",
       description: "Stir-fried noodles with pork, cabbage, and yakisoba sauce.",
       price: "$12.99",
-      image: "https://images.unsplash.com/photo-1619985632461-f33748ef8f3e?w=800&h=600&fit=crop"
+      image: "/yakisoba.webp"
     },
     {
       category: "SIDES",
       title: "Miso Soup",
       description: "Traditional miso soup with tofu, wakame, and scallions.",
       price: "$3.99",
-      image: "https://images.unsplash.com/photo-1606491048763-fba9bea2a44d?w=800&h=600&fit=crop"
+      image: "/miso.jpg"
     }
   ]
 
@@ -141,14 +141,14 @@ export default function index() {
       title: "Premium Junmai Sake",
       description: "Smooth and refined sake with fruity notes, served chilled or warm.",
       price: "$12.99",
-      image: "https://images.unsplash.com/photo-1557682224-5b8590cd9ec5?w=800&h=600&fit=crop"
+      image: "/sake.jpg"
     },
     {
       category: "SAKE",
       title: "Sparkling Sake",
       description: "Effervescent sake with delicate bubbles and fresh flavor.",
       price: "$14.99",
-      image: "https://images.unsplash.com/photo-1582106245687-0champagne?w=800&h=600&fit=crop"
+      image: "/sakesparkling.webp"
     },
     {
       category: "BEER",
@@ -183,7 +183,7 @@ export default function index() {
       title: "Matcha Latte",
       description: "Premium matcha green tea with steamed milk.",
       price: "$6.99",
-      image: "https://images.unsplash.com/photo-1536013992-f8e8c6d99e8f?w=800&h=600&fit=crop"
+      image: "/matcha.jpg"
     },
     {
       category: "TEA",
@@ -214,21 +214,21 @@ export default function index() {
       title: "Matcha Cheesecake",
       description: "Creamy green tea cheesecake with white chocolate drizzle.",
       price: "$10.99",
-      image: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=800&h=600&fit=crop"
+      image: "/matchacheesecake.webp"
     },
     {
       category: "DESSERTS",
       title: "Dorayaki",
       description: "Fluffy pancake sandwich filled with sweet red bean paste.",
       price: "$6.99",
-      image: "https://images.unsplash.com/photo-1588281235988-a437e87e4568?w=800&h=600&fit=crop"
+      image: "/dorayaki.webp"
     },
     {
       category: "DESSERTS",
       title: "Taiyaki",
       description: "Fish-shaped waffle filled with custard or red bean.",
       price: "$7.99",
-      image: "https://images.unsplash.com/photo-1603899946992-2a7b5991a2d0?w=800&h=600&fit=crop"
+      image: "/taiyaki.jpg"
     },
     {
       category: "DESSERTS",
@@ -249,7 +249,7 @@ export default function index() {
       title: "Anmitsu",
       description: "Traditional dessert with agar jelly, sweet beans, and fruit.",
       price: "$8.99",
-      image: "https://images.unsplash.com/photo-1563142083-aa016d80f71f?w=800&h=600&fit=crop"
+      image: "/anmitsu.jpg"
     },
     {
       category: "DESSERTS",
