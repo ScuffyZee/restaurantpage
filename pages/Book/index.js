@@ -75,7 +75,7 @@ const index = () => {
           <button type="submit" className="flex mx-auto text-white bg-orange-600 border-0 py-2 px-8 focus:outline-none hover:bg-orange-700 rounded text-lg transition-colors">Book Now</button>
         </div>
         <div className="p-2 w-full pt-8 mt-8 border-t border-gray-700 text-center">
-          <a className="text-orange-500">example@email.com</a>
+          <a className="text-orange-500">noodle.district@gmail.com</a>
           <p className="leading-normal my-5 text-gray-400">49 Smith St.
             
           </p>
